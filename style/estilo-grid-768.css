@@ -1,0 +1,44 @@
+body, html{
+	height: 100%;
+}
+
+#container{
+	border: 1px solid #000;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 8% minmax(min-content,8%) auto 5%;
+	/*background: blue;*/
+}
+
+#header{
+	border: 1px solid #000;
+	text-align: center;
+}
+
+#main{
+	border: 1px solid #000;
+	display: grid;
+	grid-template-columns: auto;
+	/*margin: 1%;
+	padding: 5px;*/
+}
+
+#main #menu-lateral{
+	border: 1px solid #000;
+	text-align: center;
+	list-style: none;
+	display: none;
+}
+
+#main #menu-content{
+	border: 1px solid #0846FA;
+}
+
+#footer{
+	border: 1px solid #000;
+	text-align: center;
+}
+
+#menu{
+	border: 1px solid #000;
+	display: inline;}
